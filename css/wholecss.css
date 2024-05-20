@@ -1,0 +1,45 @@
+*{
+    font-family: "Arvo";
+    
+}
+body{
+    background-color: lightcyan;
+    
+}
+p{
+    text-align: justify;
+}
+
+/* home start */
+.acolor {
+    background-color: #3887BE;
+}
+.intro-btn{
+    background-color: #0b0b31;
+}
+/* home end */
+
+
+/* about us */
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+ 
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+ 
+.card-img-top {
+    transition: transform 0.2s;
+}
+ 
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+/* about us end */
+
+.beginner, .li{
+    display: flex;
+    justify-content: space-evenly;
+}
