@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/nav_footer.css">
+    <link rel="stylesheet" type="text/css" href="css/wholecss.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXlG0Giqb1HIj3Ud2MZrmd8iQvE1Da+p7rPJxP5hSTmDbo1iD+9CTI1HZChI" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWi6pGw1TQKZPxwpWP8fDkLw5nW4giOj65rksbtf1QfLRF0AR9ARjWZajw" crossorigin="anonymous">
+    </script>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid col-11 sticky">
+            <a class="navbar-brand ms-2 text-light" href="index.html">
+                <img src="images/logo.png" id="logo" alt="Group logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars text-light"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light text-decoration-none" href="pages/aboutus.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="nav-link dropdown-toggle text-light text-decoration-none" href="#"
+                                data-bs-toggle="dropdown">Lessons</a>
+                            <ul class="navdropdown dropdown-menu">
+                                <li><a class="dropdown-item" href="pages/beginner.html">Beginner</a></li>
+                                <li><a class="dropdown-item" href="pages/lower-intermediate.html">Lower-intermediate</a></li>
+                                <li><a class="dropdown-item" href="pages/upper-intermediate.html">Upper-intermediate</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <a class="btn btn-outline-light ms-auto" href="pages/signup.html">Sign Up/In</a>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- banner -->
+    
+    <div class="carousel slide" data-bs-ride="carousel" id="myslider">
+        <!-- carousel -->
+        <div class="carousel-inner">
+            <!-- image slide show -->
+            <div class="carousel-item active">
+                <img src="images/listening.jpg" class="d-block w-100" alt="Student's listening">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Listening</35>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/reading.jpg" class="d-block w-100" alt="Student's reading book">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Reading</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/speaking.jpg" class="d-block w-100" alt="Students are speaking to each other">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Speaking</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/writing.jpg" class="d-block w-100" alt="Student's writing">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Writing</h3>
+                </div>
+            </div>
+            <!-- end of image slide show -->
+
+            <!-- control -->
+            <button class="carousel-control-prev" data-bs-target="#myslider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#myslider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <!-- end of control -->
+
+            <!-- indicator -->
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#myslider" data-bs-slide-to="0"></button>
+                <button data-bs-target="#myslider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#myslider" data-bs-slide-to="2"></button>
+                <button data-bs-target="#myslider" data-bs-slide-to="3"></button>
+            </div>
+            <!-- end of indicator -->
+        </div>
+    </div>
+    <!-- end of banner -->
+
+    <!-- intro start -->
+    <div class="container">
+        <div class="text-center">
+            <!-- Overview Introduction -->
+            <h3 class="p-3">Welcome to 4 Elements!</h3>
+            <p>4 Elements is dedicated to teaching Myanmar language to international students who may not have had the opportunity to learn their mother tongue extensively. Our goal is to help you connect more deeply with Myanmar's culture and people through language learning.</p>
+            <!-- Button to About Us Page -->
+            <a href="pages/aboutus.html" class="intro-btn btn btn-outline-secondary text-light py-2 px-4 font-weight-bold">
+                Learn More About Us
+            </a>
+        </div>
+    </div>
+    <!-- intro end -->
+    <hr>
+    <!-- video section start -->
+    <h2 class="text-center">How do you use this website?</h2>
+    <div class="container my-4 d-flex justify-content-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Hgxob7yyPN4?si=V0dtIDx8kLDzUmUx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    <!-- video section end -->
+    <hr>
+    <!-- faq start -->
+    <div class="container accordion mb-3" id="parent">
+        <h1 class="text-center">FAQ</h1>
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class=" colorqs accordion-button" data-bs-toggle="collapse" data-bs-target="#acc1">1. What is
+                    our
+                    website(4
+                    Elements)?</button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc1" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        Our website(4 Elements) is an online platform dedicated to teaching the Burmese language. Our
+                        mission is to provide accessible and comprehensive resources for learners of all levels, from
+                        beginners to advanced speakers.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc2">2. What courses and
+                    resources does our website (4 Elements) offer?</button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc2" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        We offer a variety of courses and resources to help you learn Burmese effectively:
+                        Comprehensive language courses covering vocabulary, grammar, pronunciation, and cultural
+                         insights.
+                         Interactive lessons, quizzes, and practice exercises to reinforce your learning.
+                         Audio and video materials to improve your listening and speaking skills.
+                         Access to native Burmese speakers for conversation practice and language exchange.
+                         Cultural insights and tips to help you understand and appreciate Burmese culture.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc3">3. What levels of
+                    language
+                    proficiency does our website(4 Elements) cater to?</button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc3" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        We cater to all levels of language proficiency, from beginners to advanced learners. Our courses
+                        are designed to be flexible and adaptable, allowing you to progress at your own pace. Whether
+                        you're starting from scratch or looking to refine your existing skills, we have the resources to
+                        support your language learning journey.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc4">
+                    4. How do I get started with the E-learning hub for the local language (Burmese)?
+                </button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc4" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        Getting started with an E-learning hub for the local language (Burmese) is easy:<br>
+                        Create an account on our website. Browse our course catalog and choose the 
+                        program that best suits your goals and proficiency level. Enroll in your 
+                        selected course and start learning at your own pace. Utilize our resources, 
+                        participate in activities, and engage with the community to enhance your 
+                        learning journey.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc5">
+                    5. Is the E-learning hub for the local language (Burmese) suitable for beginners?
+                </button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc5" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        Yes, absolutely! Our platform is designed to cater to learners of all levels, 
+                        including beginners. Our courses start from the basics and gradually progress 
+                        to more advanced topics, ensuring a smooth and comprehensive learning 
+                        experience for beginners.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc6">
+                    6. How can I contact support if I have questions or need assistance?
+                </button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc6" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        If you have any questions or need assistance, our dedicated support team is 
+                        here to help. You can reach out to us via email at [example@email.com] or 
+                        through our website's contact form. We strive to provide prompt and helpful 
+                        assistance to ensure you have a smooth learning experience.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc7">
+                    7. How often are new courses and content added to the E-learning hub for the local language (Burmese)?
+                </button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc7" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        We regularly update the E-learning hub for the local language (Burmese) 
+                        with new courses, lessons, and resources to keep our content fresh and 
+                        relevant. Stay tuned to our platform and follow us on social media for 
+                        announcements about new releases and updates.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="acolor accordion-item text-light">
+            <h1 class="accordion-header">
+                <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#acc8">
+                    8. How can I improve my speaking and listening skills?
+                </button>
+            </h1>
+            <div class="collapse accordion-collapse" id="acc8" data-bs-parent="#parent">
+                <div class="accordion-body">
+                    <div>
+                        You can practice your speaking skills by talking to your parents or someone 
+                        who can speak Burmese very well. As for your listening skills, you can 
+                        improve your listening by asking someone who can speak Burmese well to talk 
+                        about something and you summarize in your own words and tell about it back to 
+                        others, or you can listen to some news on TV and explains what the new said to others.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- faq end -->
+
+	<!-- Start of Footer -->
+	<footer class="footer text-white">
+		<div class="container-fluid">
+			<div class="row py-4">
+				<div class="col-md-4 col-sm-12">
+					<img src="images/logo1.png" class=" max-width: 100%; w-50" id="logo1" alt="Group logo">
+					<h3 class="text-center">Follow Us</h3>
+					<ul class="list-inline text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/"><i
+									class="fa-brands fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/"><i
+									class="fa-brands fa-youtube text-danger"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/"><i
+									class="fa-brands fa-instagram text-warning"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-12 text-center">
+					<ul class="list-unstyled text-center">
+						<li class="pb-1"><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+						<li class="pb-1"><a href="pages/aboutus.html" class="text-light text-decoration-none">About
+								Us</a></li>
+						<li class="pb-1">
+							<div class="dropdown">
+								<a class="dropdown-toggle text-light text-decoration-none" href="#"
+									data-bs-toggle="dropdown">Lessons</a>
+								<ul class="navdropdown dropdown-menu">
+									<li><a class="dropdown-item" href="pages/beginner.html">Beginner</a></li>
+									<li><a class="dropdown-item" href="pages/lower-intermediate.html">Lower-intermediate</a></li>
+									<li><a class="dropdown-item" href="pages/upper-intermediate.html">Upper-intermediate</a>
+								</ul>
+							</div>
+						</li>
+						<li class="pb-1"><a href="pages/signup.html" class="text-light text-decoration-none">Sign
+								Up/In</a></li>
+					</ul>
+					<a href="https://edusn-my.sharepoint.com/:w:/g/personal/nyanlinaung_edusnschool_co_uk/ERRtWRx_fURJooao1Ko-oSEBb6g1JOVYRIxAYhiphPGveQ?e=IwS53z" class="btn btn-outline-light">References</a>
+				</div>
+
+				<div class="col-md-4 col-sm-12">
+					<h3 class="text-center">Contact Us</h3>
+					<p>Email: fourelementslay@gmail.com</p>
+					<p>Phone: +959-454-363-282</p>
+					<p>Address: (No.444) Elements Road, Yangon, Myanmar</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="text-center">
+						&copy; 2024 4-Elements. All rights reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lower-intermediate</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/nav_footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/wholecss.css">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+		rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+</head>
+
+<body>
+	<!-- nav start -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container-fluid col-11">
+			<a class="navbar-brand ms-2 text-light" href="../index.html">
+				<img src="../images/logo.png" id="logo" alt="Group logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+				<span class="navbar-toggler-icon">
+					<i class="fa-solid fa-bars text-light"></i>
+				</span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active text-light" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light text-decoration-none" href="aboutus.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<div class="dropdown">
+							<a class="nav-link dropdown-toggle text-light text-decoration-none" href="#"
+								data-bs-toggle="dropdown">Lessons</a>
+							<ul class="navdropdown dropdown-menu">
+								<li><a class="dropdown-item" href="beginner.html">Beginner</a></li>
+								<li><a class="dropdown-item" href="lower-intermediate.html">Lower-intermediate</a></li>
+								<li><a class="dropdown-item" href="upper-intermediate.html">Upper-intermediate</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+				<a class="btn btn-outline-light ms-auto" href="signup.html">Sign Up/In</a>
+			</div>
+		</div>
+	</nav>
+	<!-- nav end -->
+
+	<!-- national authem start -->
+	<div>
+		<h3 class="text-center p-3">နိုင်ငံတော်သီချင်း (Myanmar National Authem)</h3>
+		<p class="text-center">
+			တရားမျှတ လွတ်လပ်ခြင်းနဲ့ မသွေ<br>
+			တို့ပြည် တို့မြေ။<br>
+			များလူခပ်သိမ်း ငြိမ်းချမ်းစေဖို့<br>
+			ခွင့်တူညီမျှ ဝါဒဖြူစင်တဲ့ ပြည်<br>
+			တို့ပြည် တို့မြေ။<br>
+			ပြည်ထောင်စုအမွေ အမြဲတည်တံံ့စေ<br>
+			အဓိဠာန်ပြုပေ ထိန်းသိမ်းစို့လေ။<br>
+			(ကမ္ဘာမကျေ မြန်မာပြည်<br>
+			တို့ ဘိုးဘွား အမွေစစ်မို့<br>
+			ချစ်မြတ်နိုးပေ။ ) ၂<br>
+			ပြည်ထောင်စုကို အသက်ပေးလိုက်<br>
+			တို့ ကာကွယ်မလေ။<br>
+			ဒါတို့ပြည် ဒါတို့မြေ တို့ပိုင်နိုက်မြေ။<br>
+			တို့ပြည် တို့မြေ အကျိုးကို<br>
+			ညီညာစွာ တို့တစ်တွေ<br>
+			ထမ်းဆောင်ပါစို့လေ<br>
+			တို့တာဝန်ပေ အဖိုးတန်မြေ။<br>
+			<br>
+			[ ပြည်ကို ပြေ ဟု အသံထွက်ပါ။<br>
+			တို့ကို ဒို့ ဟု အသံထွက်ပါ။ ]
+		</p>
+		<div class="d-flex justify-content-center">
+			<audio controls>
+				<source src="../audio/national authem.mp3" type="audio/mp3">
+			</audio>
+		</div>
+	</div>
+	<!-- national authem end -->
+	<hr>
+	<!-- lessons start -->
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၁.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6 card">
+				<section class="text-center p-2">
+					အင် အင့် အင်း<br>
+					-င် -င့် -င်း<br>
+					-ဉ် -ဉ့် -ဉ်း<br>
+				</section>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					မြင်း တံစဉ် ဆင် နှင်းဆီပွင့် ရေအိုးစင်<br>
+					ထမင်း လယ်ကွင်း ပုစဉ်း သဇင် သူငယ်ချင်း<br>
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l11.png">
+				မိုးစင်စင်လင်းပြီ။<br>
+				ပြတင်းများ ဖွင့်ထားပါ။<br>
+				သတင်းစာ နေ့စဉ်ကြည့်ရှုပါ။<br>
+				သတင်းထူးလျှင် ပြောပါ။<br>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l12.png">
+				ပညာရှိနှင့်ယှဉ်တွဲပါ။<br>
+				စဉ်းစားတွေးခေါ် ဆင်ခြင်ပါ။<br>
+				ယဉ်ယဉ်ကျေး‌‌ကျေး ပြောဆိုပါ။<br>
+				စည်းမျဉ်းစည်းကမ်းကို လေးစားပါ။<br>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l13.png">
+				လယ်ကွင်းပြင်မှာ ရေဖွေး‌ဖွေး<br>
+				ပျိုမေလေးများ လယ်ကွင်းထဲဆင်းကြမည်။<br>
+				ပျော်ပျော်ရွှင်ရွှင် သီချင်းဆိုကြ၏။<br>
+				ပျိုးပင်များသယ်လာကြသည်။<br>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၁.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6 card">
+				<section class="text-center p-2">
+					အောင် အောင့် အောင်း<br>
+					‌ေ-ာင် ‌ေ-ာင့် ‌ေ-ာင်း
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ပြောင်းဖူး ကြောင် ကောင်းကင် မောင်း စောင်း<br>
+					စာသင်ကျောင်း ခေါင်းလောင်း ကျောင်းသား မီးဖိုချောင် လှောင်အိမ်<br>
+				</section>
+			</div>
+		</div>
+
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l21.png">
+				ပြည်ထောင်စုသား ညီနောင်များတို့<br>
+				ကောင်းစားစေကြောင်း<br>
+				အားဖြည့်လောင်း၍<br>
+				စုပေါင်းညီညာကြိုးပမ်းပါ။<br>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2 ">
+				<img src="../images/l22.png">
+				ကျောင်းသားလူငယ်များ<br>
+				ရိုးသားဖြောင့်မှန်ကြသည်။<br>
+				အများအကျိုးဆောင်ကြ၏။<br>
+				ချီးကျူးစရာကောင်းလှသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l23.png">
+				စာကြောင်းကို ဖြောင့်အောင်ရေးပါ။<br>
+				မစောင်းပါစေနှင့်။<br>
+				အရေးအသားကောင်းအောင်ကြိုးစားပါ။<br>
+				အစကောင်းမှ အနှောင်းသေချာမည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၂.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အိုင် အိုင့် အိုင်း<br>
+					-ိုင်း -ိုင့် -ိုင်း
+				</section>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					စတိုးဆိုင် ထိုင်ခုံ ဗျိုင်း ရေအိုင် ရေလှိုင်း<br>
+					တိုင်းပြည် ပြိုင်ပွဲ ထမင်းချိုင့် ပန်းခိုင် ဆိုင်းဝိုင်း<br>
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l31.png">
+				အမိမြန်မာနိုင်ငံတော်<br>
+				တိုင်းရင်းသားများ<br>
+				စုပေါင်းနေထိုင်ကြ၏။<br>
+				အချင်းချင်း ကူညီရိုင်းပင်းကြ၏။<br>
+				ဝိုင်းဝန်းထမ်းဆောင် ကြံတိုင်းအောင်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l32.png">
+				လမ်းဘေးက‌ ရေအိုင်<br>
+				သည်အိုင်က ခြင်လာသည်။<br>
+				ခြင်နိုင်ဆေး ဖျန်းပါ။<br>
+				လူတိုင်းမှာ တာဝန်ရှိသည်
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l33.png">
+				မိုးဖြိုင်ဖြိုင်ရွာပြီ။<br>
+				တောရိုင်းကိုရှင်းပါ။<br>
+				မြေဩဇာ နိုင်နိုင်ထည့်ပါ။<br>
+				အပင်များ ထွားကျိုင်းမည်။<br>
+				အသ‌ီးလှိုင်လှိုင်ပေါမည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၂.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အိန် အိန့် အိန်း<br>
+					-ိန် -ိန့် -ိန်း<br>
+					-ိမ် -ိမ့် ိမ်း
+				</section>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					အငြိမ့်ပွဲ အချိန် အိမ် မိုးတိမ် ချိန်ခွင်<br>
+					မုန့်ကြိုးလိမ် ပုသိမ်ထီး စိန်ပန်းပင် ကြိမ်ခြင်း မိန်းကလေး<br>
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l41.png">
+				မိုးတိမ်ထူသည်။<br>
+				လေငြိမ်နေ၏။<br>
+				အိမ်ထဲမှာ ရေဒီယိုနားထောင်ပါ။<br>
+				မိုးလေဝသ သတင်း<br>
+				အကြိမ်ကြိမ် ကြားရသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l42.png">
+				လမင်း ထိန်ထိန်သာ၏။<br>
+				ညအချိန်မှာကစားမည်။<br>
+				မီးအိမ်ကလေးကို ငြှိမ်းပါ။<br>
+				စိန်ပြေးတမ်းကစားရအောင်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l43.png">
+				ရွာထဲမှာ အငြိမ့်ပွဲရှိသလား။<br>
+				ဆိုင်းသံတခြိမ့်ခြိမ့် ကြားရသည်။<br>
+				မိန်းကလေးများ ဖြီးလိမ်းနေပြီ။<br>
+				ယိမ်းအက ငြိမ့်ငြောင်းလှသည်။<br>
+				ပွဲသိမ်းလျှင် အိမ်ပြန်ကြမည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၃.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အုန် အုန့် အုန်း<br>
+					-ုန်း -ုန့် -ုန်း<br>
+					-ံု -ံု့ -ံုး
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ယုန် ဂျုံ ပျားအုံ ဗုံရှည် ခေါင်အုံး<br>
+					ဒုံးပျံ ပန်းကုံး မီးပုံးပျံ မုန့်လုံးရေပေါ် ပုံပြင်<br>
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l51.png">
+				စံပယ်သုံးကုံး<br>
+				ဘယ်လိုသုံးမလဲ။<br>
+				ပြုံး၍ မေးသည်။<br>
+				ဆံထုံးမှာပန်မည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l52.png">
+				ဟင်းမျိုးစုံပြီ။<br>
+				ခုံပေါ်မှာ အကုန်ချထားပါ။<br>
+				ယင်မအုံပါစေနှင့်။<br>
+				အားလုံး လုံအောင် ဖုံးထားပါ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l53.png">
+				မိုးအုံ့လျှင်အေးသည်။<br>
+				တံခါးလုံရဲ့လား။<br>
+				ချမ်း၍ တုန်နေသည်။<br>
+				စောင်လုံလုံ ခြုံထားပါ။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၃.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အွန် အွန့် အွန်း<br>
+					-ွန် -ွန့် -ွန်း<br>
+					-ွမ် -ွမ့် -ွမ်း<br>
+					ံ-ွ ံ-ွ့<br>
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ဇွန်း စွန် ယွန်းထည် ကွမ်းသီး ဆွမ်းတော်<br>
+					ကွန်ပျူတာ ထွန်တုံး ဝါဂွမ်း လယ်ထွန် စွမ်းရည်<br>
+				</section>
+			</div>
+		</div>
+		<div class="row li ">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l61.png">
+				နေမွန်းတည့်ပြီ။<br>
+				အပူရှန် အလွန်ပြင်းသည်။<br>
+				လွန်လွန်ကျွံကျွံ မကစားရ။<br>
+				ခွန်အား ကုန်ခန်းမည်။<br>
+				ပင်ပန်းနွမ်းနယ်မည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l62.png">
+				ဇွန်းပန်းရုံအနီး<br>
+				လှည်းဘီး နွံထဲကျွံနေသည်။<br>
+				ကူ၍ တွန်းပေးကြပါ။<br>
+				လေးလွန်း၍ မတွန်းနိုင်ဘူးလား။<br>
+				ပြိုင်တူတွန်းလျှင် ရွေ့နိုင်ပါသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l63.png">
+				ခွန်အားကြီးသော လယ်သမားများ<br>
+				စုပေါင်းထွန်ကြမည်။<br>
+				နည်းလမ်းကောင်းများ ညွှန်ပြထားသည်။<br>
+				သီးနှံဖွံဖြိုးမည်။<br>
+				ကိုင်းကျွန်းမှီ ကျွန်းကိုင်းမှီ။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၄.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အက်<br>
+					-က်
+				</section>
+			</div>
+		</div>
+	</div>
+	<div class="row justify-content-center mt-3">
+		<div class="col-sm-6 card">
+			<section class="p-2 text-center">
+				စက်ရုံ ကြွက် မျက်မှန် တံမြက်စည်း မနက်ဖြန်<br>
+				လက်ဖက် ငှက်ပျောသီး ရက်ကန်းစင် ကြက်သွန်နီ
+			</section>
+		</div>
+	</div>
+
+	<div class="row li">
+		<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+			<img src="../images/l71.png">
+			ကျောင်းတက် မပျက်ပါစေနှင့်။<br>
+			ကျောင်းမှန်မှန်တက် စာမခက်။<br>
+			မပျက်မကွက် စာကိုကျက်။<br>
+			အပျင်းမဖက် ဉာဏ်ထက်မြက်။
+		</div>
+		<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+			<img src="../images/l72.png">
+			စက်မှုလယ်ယာ အားပေးပါ။<br>
+			ထွန်စက်နှင့် ထွန်ယက်ပါ။<br>
+			သီးနှံ အထွက်တိုးမည်။<br>
+			ကြက် ဘဲ ငှက် ဝက် မွေးမြူပါ။<br>
+			ဝင်ငွေ တိုးတက်လာမည်။
+		</div>
+		<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+			<img src="../images/l73.png">
+			မိုလင်းကြက်တွန်သံ ကြားရသည်။<br>
+			နံနက်ချိန်ခါ နေထွက်လာပြီ။<br>
+			ငှက်ကလေးများ ပျံဝဲနေကြ၏။<br>
+			မြက်ခင်းများ စိမ်းစိုနေသည်။
+		</div>
+	</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၄.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အောက်<br>
+					‌ေ-ာက်
+				</section>
+			</div>
+		</div>
+
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ကျောက်သင်ပုန်း တုတ်ကောက် မျောက် ငါးခြောက် ပိတောက်ပန်း<br>
+					ရှောက်သီး ထန်းခေါက်ဖာ ပြတင်းပေါက် ခမောက် ကောက်ညှင်းပေါင်း
+				</section>
+			</div>
+		</div>
+
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l81.png">
+				‌‌ကင်းထောက်လူငယ်များ <br>
+				ရောက်လေရာမှာ ကူညီ၏။<br>
+				အများကိုလည်း ထောက်ထားသည်။<br>
+				လူအများက ချီးမြှောက်ကြသည်။<br>
+				ထွန်းပေါက်အောင် ကြိုးစားသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-cente m-3 p-2r">
+				<img src="../images/l82.png">
+				မိုးတဖြောက်ဖြောက်ရွာသည်။<br>
+				ခမောက်ဆောင်း၍ လမ်းလျှောက်ပါ။<br>
+				မျိုးစေ့များ အပင်ပေါက်လာပြီ။<br>
+				မညှိုးမခြောက်ပါစေနှင့်။<br>
+				မြေတောင်မြှောက်ပေးပါ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l83.png">
+				ခလောက်သံ ဒိုးဒိုးဒေါင်ဒေါင်ကြားရသည်။<br>
+				လှည်းရောက်လာပြီလား။<br>
+				ကောက်လှိုင်းစည်းများ တင်ကြသည်။<br>
+				တလင်းထဲ အရောက် တောက်လျှောက် မောင်းပါ။<br>
+				ကောက်သင်းကောက်သူများ ရောက်လာပြီ။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၅.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အိုက်<br>
+					-ိုက်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					စာကြည့်တိုက် ပိုက်ကျော်ခြင်း အမှိုက်ပုံး တိုက်အိမ် ပိုက်ကွန် <br>
+					ကောက်စိုက်သမ စိုက်ပျိုးခင်း ပိုက်ဆံ ငှက်သိုက် သားပိုက်ကောင်
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l91.png">
+				‌‌ကျောင်းစာကြည့်တိုက် ဖွင့်ပြီ။<br>
+				ကြိုက်ရာစာစောင် ကြည့်ရှုနိုင်သည်။<br>
+				စာကြည့်တိုက်မှာ စာဖတ်ပါ။ <br>
+				အချိန်ရှိခိုက် လုံ့လစိုက်ရမည်။<br>
+				စည်းကမ်းကို လိုက်နာပါ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l92.png">
+				သူတို့ ကောက်စိုက်သွားကြသည်။<br>
+				ကလေးများပါ လိုက်သွားကြသည်။<br>
+				သိုက်သိုက်ဝန်းဝန်းရှိသည်။<br>
+				လယ်ထဲတွင် ပုစွန်လုံး နှိုက်ကြသေးသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l93.png">
+				ဂုဏ်ပြုထိုက်သော လူငယ်များ <br>
+				လှိုက်လှိုက်လှဲလှဲ ကြိုဆိုကြမည်။<br>
+				သိုက်သိုက်မြိုက်မြိုက် ရှိသည်။<br>
+				အခိုက်အတန့် နားနေပါဦး။<br>
+				ထိုက်ထိုက်တန်တန် ဂုဏ်ပြုသည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၅.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အစ်<br>
+					-စ်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ပစ်တိုင်းထောင် မြစ်ချောင်း ယွန်းအစ် သစ်သီး ခုနှစ်<br>
+					ကျားသစ် ရေစစ် မီးခြစ် ကျစ်ဆံမြီး ညီအစ်ကို
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l101.png">
+				ဤကလေး တစ်တစ်ရစ်ရစ် ဝသည်။<br>
+				အသားလည်းကျစ်သည်။<br>
+				တခစ်ခစ် ရယ်လိုက်သေးသည်။<br>
+				ချစ်စရာ အလွန်ကောင်းသည်။<br>
+				လက်နှစ်ဖက်ဖြင့် ပွေ့ချီပါ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l102.png">
+				ဟင်းကျန်ထမင်းကျန် စည်းကမ်းမဲ့ မပစ်ရ။<br>
+				အိမ်အနီး၌ မညစ်ပေစေနှင့်။<br>
+				ညစ်ပေလျှင် ကြွက်ပေါမည်။<br>
+				ကြွက်ပေါလျှင် ရောဂါဖြစ်မည်။<br>
+				ရောဂါဖြစ်လျှင် ပူပင်ရသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l103.png">
+				နှစ်သစ်ကူးပွဲတော် ကျင်းပသည်။<br>
+				ဆိုင်းများ ဖွင့်လှစ် ရောင်းချ၏။<br>
+				ဈေးသည်များ အော်ဟစ်ရောင်းကြစည်။<br>
+				ဈေးဆစ်၍ ဝယ်ခဲ့ပါ။<br>
+				ပစ်တိုင်းထောင်နှင့် ယွန်းအစ်ဝယ်ခဲ့သည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၆.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အတ် အပ်<br>
+					-တ် -ပ်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					သေနတ် ယပ်တောင် ရဟတ်ယာဉ် သနပ်ခါး<br>
+					ကတ်ကြေး ဖိနပ် ဇာတ်ပွဲ ဓာတ်ပုံ နားကပ် အားလပ်ရက်
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l111.png">
+				လူငယ်များ ခြင်းခတ်နေကြသည်။<br>
+				အဝတ်ဆင်တူဝတ်ထားသည်။<br>
+				ဖနောင့်နှင့် ဆတ်၍ ခတ်သည်။<br>
+				ဝိုင်းသုံးလေးပတ်လည်သည်။<br>
+				ဖျတ်ဖျတ်လတ်လတ်ရှိကြသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l112.png">
+				သစ်စက်နားမှာ ရပ်မကြည့်ရ။<br>
+				သစ်တုံးများ ခွဲဖြတ်နေသည်။<br>
+				မပြတ်မလပ် ဆောင်ရွက်သည်။<br>
+				ပျဉ်ချပ်များ ထပ်ထားသည်။<br>
+				သပ်သပ်ရပ်ရပ်ရှိသည်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l113.png">
+				ရေတွင်းရေကန်ကိုဝင်းခတ်ပါ။<br>
+				ကျွဲ နွားများ မကပ်စေရ။<br>
+				ကန်ပေါင်ပေါ်တွင် အဝတ်မလျှော်ရ။<br>
+				ရေမဝပ်အောင် မပြတ်သတိပြုပါ။<br>
+				လူကြီးများက စောင့်ကြပ်ကြည့်ရှုနေသည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+		<div class="row justify-content-center">
+			<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၆.၂)</h5>
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အွတ် အွပ်<br>
+					-ွတ် -ွပ်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					လွတ်လပ်ရေးအောင်ပွဲ ကွပ်ပျစ် ကတွတ်ယို မုန့်ကြွပ် သွပ်ပြား<br>
+					စွပ်ကျယ် လက်စွပ် မင်းကွတ်သီး ရေပြွတ် သီတင်းကျွတ်ပွဲ
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l121.png">
+				သီတင်းကျွတ်ပြီ။<br>
+				မိုးလေကင်းလွတ်တော့မည်။<br>
+				မီးပုံးပျံ လွှတ်ကြရအောင်။<br>
+				မီးစာကို ရေနံဆွတ်ထားပါ။<br>
+				မှိုင်းဝမှ လွှတ်ပါ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l122.png">
+				မိန်းကလေးများ ကြက်ခွပ်တမ်း <br>
+				ကစားကြသည်။<br>
+				လူငယ်များ စွန်လွှတ်နေကြသည်။<br>
+				ဘေးလွတ်ရာမှာ ကစားပါ။<br>
+				စွန်ပြတ်လျှင် တစ်ဇွတ်ထိုး မလိုက်ရ။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l123.png">
+				လွတ်လပ်ရေးကို ထိန်းသိမ်းပါ။<br>
+				ညီညွတ်ရေးအတွက် ကြိုးပမ်းပါ။<br>
+				ရွပ်ရွပ်ချွံချွံ ဆောင်ရွက်ပါ။<br>
+				တာဝန်မချွတ်မယွင်းပါစေနှင့်။<br>
+				ပြည်သူ့ကျင့်ဝတ်ကို အထွတ်အမြတ်ထားပါ။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၇.၁)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အိတ် အိပ်<br>
+					-ိတ် -ိပ်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					လွယ်အိတ် လိပ်ပြာ ဆိတ် ငါးမျှားချိတ် ဆန်အိတ်<br>
+					လိပ် ပုရွက်ဆိတ် အိပ်ရာ လိပ်စာ ပိတ်စ
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l131.png">
+				လူကလေး အိပ်ချင်ပြီ။<br>
+				တေးဆို၍ သိပ်ပါ။<br>
+				မျက်စိ မှိတ်လာပြီ။<br>
+				တိတ်တိတ်ဆိတ်ဆိတ် နေကြပါ။<br>
+				အထိတ်တလန့် မဖြစ်ပါစေနှင့်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l132.png">
+				ဆိတ်နှင့်ကြက် မွေးထားသည်။<br>
+				ဆန်ကွဲတစ်အိတ် လိုချင်သည်။<br>
+				အဖိတ်နေ့ လာယူပါမည်။<br>
+				ဖျင်အိတ်နှင့် ထည့်ပေးမလား။<br>
+				မဖိတ်မစဉ် ပါစေနှင့်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l133.png">
+				ကောက်ရိတ်ပြိုင်ပွဲ ကျင်းပသည်။<br>
+				အကြိတ်အနယ် ပြိုင်ကြသည်။<br>
+				ကြိတ်ကြိတ်တိုး စည်ကားသည်။<br>
+				ကောက်ညှင်းငချိပ် ကျွေးသည်။<br>
+				ပိတ်စနှင့် လွယ်အိတ်များဆုချသည်။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">အသတ်လက္ခဏာသိမှတ်စရာ ဗျည်းနဲ့တွဲကြမှာ(၇.၂)</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					အုတ် အုပ်<br>
+					-ုတ် -ုပ်
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					ဦးထုပ် ငရုတ်သီး ဆွမ်းအုပ် သစ်ကုလားအုတ် ပဲပြုတ်<br>
+					ဝါးလက်ခုပ် အိုးပုတ် ကောက်ညှင်း တောအုပ် ရုပ်မြင်သံကြား
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l141.png">
+				မေမေ့နားမှာ တကုပ်ကုပ်<br>
+				ညီလေးဘာတွေလုပ်။<br>
+				အိုးပုတ် ချိုးရုပ် ဖိုးဝရုပ်<br>
+				ပလုတ်တုတ်တုတ် တလှုပ်လှုပ်<br>
+				ညီလေး ဒါတွေလုပ်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l142.png">
+				တရုတ်စံကားပင်<br>
+				နွားတင်းကုပ်နားမှာ ရှိသည်။<br>
+				အဆုပ်အဆုပ် ပွင့်သည်။<br>
+				အပွင့်ကို ပြုတ်ပါ။<br>
+				လက်သုပ် သုပ်စားရအောင်။
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l143.png">
+				မှန်တာလုပ် ဟုတ်တာပြော။<br>
+				အချိန်မီချုပ် အစုတ်သက်သာ။<br>
+				တစ်ချက်ခုတ် နှစ်ချက်ပြတ်။<br>
+				တစ်လုတ်ကျွေးဖူး သူ့ကျေးဇူး။
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container-fluid">
+		<h5 class="text-center pb-2">စာလုံးဆင့်(ပါဌ်ဆင့်)များ</h5>
+		<div class="row justify-content-center">
+			<div class="col-sm-6  card">
+				<section class="text-center p-2">
+					
+
+					-က် + က (က္က) တက္ကသိုလ်<br>
+					-ဉ် + ဉ (ည) ပညာ<br>
+					-တ် + တ (တ္တ) သတ္တဝါ<br>
+					-န် + န (န္န) ပိန္နဲသီး<br>
+					-ပ် + ပ (ပ္ပ) အဓိပ္ပာယ်<br>
+					-ယ် + ယ (ယျ) ဥယျာဉ်<br>
+					-သ် + သ (ဿ) ပိဿာ<br>
+
+					-င် + က (င်္က) လင်္ကာ<br>
+					-စ် + ဆ (စ္ဆ) တိရစ္ဆာန်<br>
+					-ဉ် + စ (ဉ္စ) ပဉ္စမ<br>
+					-ဏ် + ဌ (ဏ္ဌ) ပုံသဏ္ဌာန်<br>
+					-ဏ် + ‌ဍ (ဏ္ဍ) ကဏ္ဍ<br>
+					-မ် + ဘ (မ္ဘ) ကမ္ဘာ
+				</section>
+			</div>
+		</div>
+		<div class="row justify-content-center mt-3">
+			<div class="col-sm-6 card">
+				<section class="p-2 text-center">
+					မင်္ဂလာပါ သင်္ကြန်မဏ္ဍပ် ကမ္ဘာလုံး သင်္ဘော ရှပ်အင်္ကျီ <br>
+					လိမ္မော်သီး တနင်္ဂနွေ စက္ကူ သစ္စာပန်း ပတ္တလား<br>
+					သိပ္ပံ ပုစ္ဆာ ကုန်ပစ္စည်း အတ္ထုပတ္တိ ယောက်ျား
+				</section>
+			</div>
+		</div>
+		<div class="row li">
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l151.png">
+				ဆရာ့မေတ္တာ စေတနာ<br>
+				တာဝန်ဝတ္တရား မပျက်ပါ။<br>
+				တတ်လိမ္မာ တပည့်တို့<br>
+				အနန္တဂိုဏ်းဝင် မှတ်ပါစို့။
+				<audio controls>
+					<source src="../audio/l151.m4a" type="audio/mp4">
+				</audio>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l152.png">
+				မန္တလေးတက္ကသိုလ်မှ လေ့လာရေးအဖွဲ့<br>
+				ပုပ္ပားတောင် ပေါ် တက်ခဲ့သည်။<br>
+				စန္ဒကူးပင်များ လေ့လာခဲ့သည်။<br>
+				ပုဂံတွင် အာနန္ဒာဘုရားဖူးခဲ့သည်။<br>
+				ဗုဒ္ဓဟူးနေ့က ပြန်ရောက်ခဲ့ကြသည်။
+				<audio controls>
+					<source src="../audio/l151.m4a" type="audio/mp4">
+				</audio>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l153.png">
+				ကန္ဒရဝတီ ‌ငွေတောင်ပြည်<br>
+				ဒွေးမယ်နော်တို့ ကိန္နရီ။<br>
+				ပုံဝတ္ထုကောင်း ဇာတ်လမ်းရှည်<br>
+				ကြားဖူးခဲ့သော ဒဏ္ဍာရီ။
+				<audio controls>
+					<source src="../audio/l153.m4a" type="audio/mp4">
+				</audio>
+			</div>
+			<div class="col-md-3 col-sm-12 card text-center m-3 p-2">
+				<img src="../images/l154.png">
+				နံရံမှာ ပြက္ခဒိန်တစ်ခု<br>
+				မြန်မာသက္ကရာဇ် ဘယ်နှခုနှစ်လဲ။<br>
+				ဓမ္မစကြာနေ့က ဘယ်လမှာလဲ။<br>
+				သတ္တမမြောက်လက ဘာလလဲ။<br>
+				ခရစ္စမတ်နေ့ကို တွေ့သလား။<br>
+				‌အမေးပုစ္ဆာများ ဖြေကြည့်ပါ။
+				<audio controls>
+					<source src="../audio/l154.m4a" type="audio/mp4">
+				</audio>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="container mb-3">
+		<h3 class="text-center p-2">ဆယ့်နှစ်လရာသီ ပွဲတော်များ</h3>
+		<p class="text-center">
+			၁။ တန်ခူးလ သင်္ကြန်ပွဲ<br>
+			၂။ ကဆုန်လ ညောင်ရေသွန်းပွဲ<br>
+			၃။ နယုန်လ စာပြန်ပွဲ<br>
+			၅။ ဝါခေါင်လ စာရေးတံပွဲ<br>
+			၆။ တော်သလင်းလ လှေပြိုင်ပွဲ<br>
+			၇။ သီတင်းကျွတ်လ မီးထွန်းပွဲ<br>
+			၈။ တန်ဆောင်မုန်း‌လ ကထိန်ပွဲ<br>
+			၉။ နတ်တော်လ စာဆိုတော်ပွဲ<br>
+			၁၀။ ပြာသိုလ မြင်းခင်းပွဲ<br>
+			၁၁။ တပို့တွဲလ ထမနဲပွဲ<br>
+			၁၂။ တပေါင်းလ သဲပုံစေတီပွဲ<br>
+		</p>
+		<div class="row">
+			<img src="../images/li1.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li2.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li3.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li4.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li5.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li6.jpg" class="col-md-2 col-sm-6">
+		</div>
+		<div class="row">
+			<img src="../images/li7.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li8.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li9.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li10.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li11.jpg" class="col-md-2 col-sm-6">
+			<img src="../images/li12.jpg" class="col-md-2 col-sm-6">
+		</div>
+	</div>
+	
+
+	<!-- Start of Footer -->
+	<footer class="footer text-white">
+		<div class="container-fluid">
+			<div class="row py-4">
+				<div class="col-md-4 col-sm-12">
+					<img src="../images/logo1.png" class=" max-width: 100%; w-50" id="logo1" alt="Group logo">
+					<h3 class="text-center">Follow Us</h3>
+					<ul class="list-inline text-center">
+						<li class="list-inline-item"><a href="https://www.facebook.com/"><i
+									class="fa-brands fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/"><i
+									class="fa-brands fa-youtube text-danger"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/"><i
+									class="fa-brands fa-instagram text-warning"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-sm-12 text-center">
+					<ul class="list-unstyled text-center">
+						<li class="pb-1"><a href="../index.html" class="text-light text-decoration-none">Home</a>
+						</li>
+						<li class="pb-1"><a href="aboutus.html" class="text-light text-decoration-none">About
+								Us</a></li>
+						<li class="pb-1">
+							<div class="dropdown">
+								<a class="dropdown-toggle text-light text-decoration-none" href="#"
+									data-bs-toggle="dropdown">Lessons</a>
+								<ul class="navdropdown dropdown-menu">
+									<li><a class="dropdown-item" href="beginner.html">Beginner</a></li>
+									<li><a class="dropdown-item" href="lower-intermediate.html">Lower-intermediate</a>
+									</li>
+									<li><a class="dropdown-item" href="upper-intermediate.html">Upper-intermediate</a>
+								</ul>
+							</div>
+						</li>
+						<li class="pb-1"><a href="signup.html" class="text-light text-decoration-none">Sign
+								Up/In</a></li>
+					</ul>
+					<a href="https://edusn-my.sharepoint.com/:w:/g/personal/nyanlinaung_edusnschool_co_uk/ERRtWRx_fURJooao1Ko-oSEBb6g1JOVYRIxAYhiphPGveQ?e=IwS53z"
+						class="btn btn-outline-light">References</a>
+				</div>
+
+				<div class="col-md-4 col-sm-12">
+					<h3 class="text-center">Contact Us</h3>
+					<p>Email: fourelementslay@gmail.com</p>
+					<p>Phone: +959-454-363-282</p>
+					<p>Address: (No.444) Elements Road, Yangon, Myanmar</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="text-center">
+						&copy; 2024 4-Elements. All rights reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
+	<!-- End of Footer -->
+</body>
+
+</html>
